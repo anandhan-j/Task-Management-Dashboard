@@ -1,21 +1,19 @@
+import { CheckOutlined, DeleteOutlined, PlusOutlined } from "@ant-design/icons";
+import {
+  Button,
+  Card,
+  Input,
+  List,
+  Popconfirm,
+  Select,
+  Space,
+  Tag
+} from "antd";
 import type React from "react";
 import { useState } from "react";
-import {
-  Typography,
-  Space,
-  Input,
-  Select,
-  List,
-  Card,
-  Tag,
-  Button,
-  Popconfirm,
-} from "antd";
-import { CheckOutlined, DeleteOutlined, PlusOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import { useTaskContext, Task } from "../context/TaskContext";
+import { Task, useTaskContext } from "../context/TaskContext";
 
-const { Title } = Typography;
 const { Search } = Input;
 const { Option } = Select;
 
