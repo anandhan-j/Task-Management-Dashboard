@@ -13,7 +13,7 @@ const ContentWrapper: React.FC<props> = ({ children, title }) => {
   return (
     <>
       <Content style={{ margin: "16px", width: "calc(100vw - 50px)" }}>
-        <Title level={2}>{title ?? ""}</Title>
+        <Title level={3}>{title ?? ""}</Title>
         {children}
       </Content>
     </>

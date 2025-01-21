@@ -9,7 +9,7 @@ const { Title } = Typography;
 const AddTaskFormPage: React.FC = () => {
   return (
     <>
-      <ContentWrapper title="Task Management Dashboard">
+      <ContentWrapper title="Add Task">
         <AddTaskForm />
       </ContentWrapper>
     </>
