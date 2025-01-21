@@ -1,3 +1,11 @@
+# To run the application 
+
+$ npm install
+$ npm run dev
+
+This project uses Antd Design, React Dom Router
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
